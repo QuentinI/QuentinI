@@ -1,0 +1,287 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[a4paper,margin=2cm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+%-------------------------
+% Adapted from Aras Gungore
+% https://github.com/arasgungore/arasgungore-CV
+%------------------------
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\hypersetup{frenchlinks=true}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0pt}
+
+\titleformat
+  {\section}
+  {
+    \vspace{-4pt}\scshape\raggedright\large
+  }
+  {}
+  {0em}
+  {}
+  [\color{black}\titlerule \vspace{-5pt}]
+
+\titleformat
+  {\subsection} 
+  {\centering\bfseries\LARGE}
+  {\thechapter} {} {} 
+
+\titleformat
+  {\subsubsection} 
+  {\bfseries\large}
+  {}{}{} 
+
+\titlespacing*{\subsubsubsection}{0pt}{*0}{0pt}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{artemii-gerasimovich}{%
+\section{Artemii Gerasimovich}\label{artemii-gerasimovich}}
+
+\textbf{GitHub} \href{https://github.com/QuentinI/}{QuentinI} ·
+\textbf{LinkedIn} \href{https://www.linkedin.com/in/q-ink/}{q-ink} ·
+\textbf{mail}
+\href{mailto:mbee@pm.me}{\href{mailto:mbee@pm.me}{\nolinkurl{mbee@pm.me}}}
+
+\hypertarget{experience}{%
+\subsection{Experience}\label{experience}}
+
+\hypertarget{middle-rust-developer--soramitsu}{%
+\subsubsection{\texorpdfstring{Middle Rust Developer @
+\href{https://soramitsu.co.jp/}{Soramitsu}}{Middle Rust Developer @ Soramitsu}}\label{middle-rust-developer--soramitsu}}
+
+\hypertarget{stack-rust-tokio-python-pyo3-nix}{%
+\paragraph{Stack: Rust, tokio, Python, PyO3,
+Nix}\label{stack-rust-tokio-python-pyo3-nix}}
+
+\hypertarget{duration-apr-2022---present}{%
+\paragraph{Duration: Apr. 2022 -
+Present}\label{duration-apr-2022---present}}
+
+\hypertarget{responsibilities}{%
+\paragraph{Responsibilities}\label{responsibilities}}
+
+\begin{itemize}
+\tightlist
+\item
+  Part of Iroha 2 core team, contributing to the development of a
+  distributed ledger
+\item
+  Maintainer of Iroha 2 python bindings
+\item
+  Creator and maintainer of blockchain upgrade tool for Iroha 2
+\end{itemize}
+
+\hypertarget{middle-rust-developer--kupibilet}{%
+\subsubsection{\texorpdfstring{Middle Rust Developer @
+\href{https://www.kupi.com/}{Kupibilet}}{Middle Rust Developer @ Kupibilet}}\label{middle-rust-developer--kupibilet}}
+
+\hypertarget{stack-rust}{%
+\paragraph{Stack: Rust}\label{stack-rust}}
+
+\hypertarget{duration-nov-2021---apr-2022--6-mos}{%
+\paragraph{Duration: Nov 2021 - Apr 2022 · 6
+mos}\label{duration-nov-2021---apr-2022--6-mos}}
+
+\hypertarget{responsibilities-1}{%
+\paragraph{Responsibilities:}\label{responsibilities-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Integrated third-party airline API with the company\textquotesingle s
+  aggregator engine
+\end{itemize}
+
+\hypertarget{rust-developer--d3-technologies-now-skyroads}{%
+\subsubsection{\texorpdfstring{Rust Developer @
+\href{https://skyroads.com/}{D3 Technologies (now
+Skyroads)}}{Rust Developer @ D3 Technologies (now Skyroads)}}\label{rust-developer--d3-technologies-now-skyroads}}
+
+\hypertarget{stack-rust-tokio-hyper-postgresql}{%
+\paragraph{Stack: Rust, tokio, hyper,
+PostgreSQL}\label{stack-rust-tokio-hyper-postgresql}}
+
+\hypertarget{duration-apr-2021---nov-2021--8mos}{%
+\paragraph{Duration: Apr 2021 - Nov 2021 ·
+8mos}\label{duration-apr-2021---nov-2021--8mos}}
+
+\hypertarget{responsibilities-2}{%
+\paragraph{Responsibilities:}\label{responsibilities-2}}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed backend applications in Rust with PostgreSQL as the database
+\item
+  Created tools for integrating various avionics devices
+\end{itemize}
+
+\hypertarget{embedded-software-developer--avtomatika}{%
+\subsubsection{Embedded Software Developer @
+Avtomatika}\label{embedded-software-developer--avtomatika}}
+
+\hypertarget{stack-c-freertos-stm32}{%
+\paragraph{Stack: C, FreeRTOS, STM32}\label{stack-c-freertos-stm32}}
+
+\hypertarget{duration}{%
+\paragraph{Duration:}\label{duration}}
+
+\begin{itemize}
+\tightlist
+\item
+  Dec. 2018 - Jul. 2020 (part-time) · 1y7mos
+\item
+  Jul. 2020 - Apr. 2021 (fulltime) · 10mos
+\end{itemize}
+
+\hypertarget{responsibilities-3}{%
+\paragraph{Responsibilities:}\label{responsibilities-3}}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed embedded firmware for an STM32 microcontroller (part of a
+  larger board)
+\item
+  Implemented proprietary protocols on top of SDIO/UART/SPI/1-Wire
+\item
+  Implemented proprietary modifications to USB protocol
+\item
+  Patched and expanded STM HAL USB drivers to support additional device
+  classes
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{technical-skills}{%
+\subsection{Technical skills}\label{technical-skills}}
+
+\hypertarget{rust}{%
+\paragraph{Rust}\label{rust}}
+
+Proficient, 4+ years of experience, 2+ years of professional experience.
+Experience with async (tokio), serde, hyper. Limited experience with
+procedural macros and FFI.
+
+\hypertarget{c}{%
+\paragraph{C}\label{c}}
+
+Good, 2 years of professional experience building embedded software.
+
+\hypertarget{python}{%
+\paragraph{Python}\label{python}}
+
+Good, some professional experiense, mostly personal use.
+
+\hypertarget{nix}{%
+\paragraph{Nix}\label{nix}}
+
+Good, some professional experience, extensive personal use.
+
+\hypertarget{postgresql}{%
+\paragraph{(Postgre)SQL}\label{postgresql}}
+
+Some experience in writing queries and stored procedures.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{languages}{%
+\subsection{Languages}\label{languages}}
+
+\hypertarget{russian}{%
+\paragraph{Russian}\label{russian}}
+
+fluent, native speaker.
+
+\hypertarget{english}{%
+\paragraph{English}\label{english}}
+
+C1, experience working on English-speaking teams.
+
+\hypertarget{german}{%
+\paragraph{German}\label{german}}
+
+A1.
+
+\hypertarget{turkish}{%
+\paragraph{Turkish}\label{turkish}}
+
+A1.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{education}{%
+\subsection{Education}\label{education}}
+
+\textbf{BSc in Computational and Applied Mathematics (unfinished)}
+
+2017-2020, Saint-Petersburg State University
+
+\end{document}

@@ -1,0 +1,66 @@
+%-------------------------
+% Adapted from Aras Gungore
+% https://github.com/arasgungore/arasgungore-CV
+%------------------------
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[calcwidth]{titlesec}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{quattrocento}
+
+\hypersetup{pdfborderstyle={/S/U/W 1}}
+
+\setmainfont{Quattrocento}[
+  Extension = .ttf,
+  UprightFont = *-Regular,
+  BoldFont = *-Bold,
+  ItalicFont = Quattro-Italic,
+  BoldItalicFont = Quattro-BoldItalic,
+]
+
+\let\orighref\href
+\renewcommand
+  {\href}[2]{\orighref{#1}{#2\,\textsuperscript{\faExternalLink}}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0pt}
+
+\titleformat
+  {\section}
+  {
+    \vspace{-4pt}\scshape\raggedright\large
+  }
+  {}
+  {0em}
+  {}
+  [\color{black}\titlerule \vspace{-5pt}]
+
+\titleformat
+  {\subsection} 
+  {\centering\bfseries\LARGE}
+  {\thechapter}
+  {}
+  {} 
+
+\titleformat
+  {\subsubsection} 
+  {\bfseries\large}
+  {}
+  {}
+  {$\rhd$} 
+
+\titlespacing*{\paragraph}{0pt}{1pt}{5pt}
+
